@@ -1,0 +1,66 @@
+nav {
+    background-color: white;
+}
+nav a {
+    color: lightskyblue !important;
+}
+
+body {
+    background-color: lightskyblue;
+}
+.brand-logo {
+    margin: 0 15px;
+}
+
+.hero {
+    position: absolute;
+    width: 100%;
+    height: calc(100vh - 56px);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 255, 0.5)),
+        url("/img/hero.jpg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.hero {
+    color: white;
+}
+.hero p {
+    margin: 75px 0;
+    line-height: 2.5;
+}
+.buttons a {
+    width: 47%;
+    background: rgba(255, 255, 255, 0.75);
+    color: black;
+}
+.buttons .cta {
+    background: lightskyblue;
+    font-weight: 700;
+    color: white;
+}
+
+.card-image span {
+    background-color: rgba(0, 0, 0, 0.15);
+    font-weight: 900 !important;
+    text-shadow: 1px 1px 2px lightskyblue;
+    width: 100%;
+}
+
+.container img {
+    width: 100%;
+}
+
+.culture img {
+    margin-bottom: 25px;
+}
+
+.sidenav-header {
+    background-color: lightskyblue;
+    padding: 20px;
+    color: white;
+}
+.sidenav li {
+    padding: 10px;
+}

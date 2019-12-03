@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PWA Example</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <!-- <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="./css/app.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-wrapper">
+            <a href="/" class="brand-logo">Argentina</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="culture.html">Culture</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <div class="sidenav-header">
+            <h3>Argentina</h3>
+        </div>
+
+        <li><a href="destinations.html">Destinations</a></li>
+        <li><a href="culture.html">Culture</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+    <div class="container">
+        <h4>Destinations</h4>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m7">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./img/patagonia.jpg">
+                    <span class="card-title">Patagonia</span>
+                </div>
+                <div class="card-content">
+                    <p>This is a sparsely populated region at the southern end of South America, shared by Chile and
+                        Argentina. The region comprises the southern section of the Andes Mountains and the deserts,
+                        pampas, and grasslands to the east.</p>
+                </div>
+                <div class="card-action">
+                    <a class="modal-trigger" href="#modal1">Watch more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m7">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./img/ischigualasto.jpg">
+                    <span class="card-title">Ischigualasto</span>
+                </div>
+                <div class="card-content">
+                    <p>Ischigualasto Provincial Park, also called Valle de la Luna ("Valley of the Moon"), due to its
+                        moon like appearance, is a provincial protected area in the north-western Argentina. In 2000
+                        UNESCO included Ischigualasto and
+                        Talampaya National Park among its World Heritage Sites.</p>
+                </div>
+                <div class="card-action">
+                    <a class="modal-trigger" href="#modal1">Watch more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m7">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./img/iguazu.jpg">
+                    <span class="card-title">Cataratas del Iguazú</span>
+                </div>
+                <div class="card-content">
+                    <p>Iguazú Falls or Iguaçu Falls are waterfalls of the Iguazu River on the border of the Argentine
+                        province of Misiones and the Brazilian state of Paraná. Together, they make up the largest
+                        waterfall in the world. They are also considered one of the seven natural wonders of the
+                        world.
+                    </p>
+                </div>
+                <div class="card-action">
+                    <a class="modal-trigger" href="#modal1">Watch more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m7">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./img/glaciarmoreno.jpg">
+                    <span class="card-title">Glaciar P. Moreno</span>
+                </div>
+                <div class="card-content">
+                    <p>The Perito Moreno Glacier is a 250 km2 ice formation, 30 km in length, is one of 48 glaciers fed
+                        by
+                        the Southern Patagonian Ice Field located in the Andes system shared with Chile. This ice field
+                        is the world's third largest reserve of fresh water.</p>
+                </div>
+                <div class="card-action">
+                    <a class="modal-trigger" href="#modal1">Watch more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m7">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./img/buenosaires.jpg">
+                    <span class="card-title">Buenos Aires</span>
+                </div>
+                <div class="card-content">
+                    <p>It is an autonomous district and the capital of the country. Buenos Aires is a top tourist
+                        destination, and is known for its preserved Eclectic European architecture and rich
+                        multicultural life, being home to multiple ethnic and religious groups, thanks to the millions
+                        of immigrants from all over the world. </p>
+                </div>
+                <div class="card-action">
+                    <a class="modal-trigger" href="#modal1">Watch more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m7">
+            <div class="card">
+                <div class="card-image">
+                    <img src="./img/ushuaia.jpg">
+                    <span class="card-title">Ushuaia</span>
+                </div>
+                <div class="card-content">
+                    <p>Ushuaia is the capital of Tierra del Fuego, Antártida e Islas del Atlántico Sur Province. It was
+                        regarded as the southernmost city in the world.</p>
+                </div>
+                <div class="card-action">
+                    <a class="modal-trigger" href="#modal1">Watch more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>Comming soon...</h4>
+            <p>The information you want to access is not ready yet, we are working on it.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Ok</a>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/ui.js"></script>
+</body>
+
+</html>
