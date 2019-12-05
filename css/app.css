@@ -61,6 +61,10 @@ body {
     padding: 20px;
     color: white;
 }
+.sidenav-header a {
+    text-decoration: none;
+    color: white;
+}
 .sidenav li {
     padding: 10px;
 }
